@@ -1,0 +1,40 @@
+[
+    {
+      "name": "nombre",
+      "label": "Nombre",
+      "type": "text",
+      "validations": {
+        "required": true,
+        "minLength": 3
+      }
+    },
+    {
+      "name": "apellido",
+      "label": "Apellidos",
+      "type": "text",
+      "validations": {
+        "required": true,
+        "minLength": 10
+      }
+    },
+    {
+      "name": "edad",
+      "label": "Edad",
+      "type": "number",
+      "validations": {
+        "required": true,
+        "min": 18,
+        "max": 99
+      }
+    },
+    {
+      "name": "sobre",
+      "label": "Sobre",
+      "type": "textarea",
+      "validations": {
+        "required": true,
+        "min": 18,
+        "max": 99
+      }
+    }
+  ]
